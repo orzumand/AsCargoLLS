@@ -16,6 +16,7 @@ const Wrapper = styled.div`
   height: 820px;
   display: flex;
   flex-direction: column;
+  position: relative;
 `;
 
 const Content = styled.div`
@@ -27,22 +28,17 @@ const Content = styled.div`
   }
 `;
 const ContentText = styled.div`
+  position: absolute;
   z-index: 5;
   color: #6c6c6c;
-
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0%;
   margin-top: 80px;
-
   width: fit-content;
 `;
 
 Content.Counts = styled.div`
-  display: flex;
-  gap: 30px;
-  margin-top: 150px;
-
   div.card {
     z-index: 2;
     width: 280px;
@@ -53,6 +49,7 @@ Content.Counts = styled.div`
     background-size: 32px;
     background-repeat: no-repeat;
     background-position: 95% 15px;
+
     /* &:hover {
       transition: 0.2s;
       padding: 25px;
@@ -110,14 +107,9 @@ Card.Subtitle = styled.div`
   line-height: 30px;
 `;
 const Map = styled.div`
-  width: 80%;
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  transform: translate(-50%);
   svg {
     stroke: #fff;
-    stroke-width: 5px;
+    stroke-width: 2px;
 
     // All layers are just path elements
     path {

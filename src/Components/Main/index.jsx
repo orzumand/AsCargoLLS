@@ -1,8 +1,9 @@
 import { Wrapper, MainContainer, Content } from "./styled";
 import { motion } from "framer-motion";
-import Icon from "../../assets/img/icon.svg";
+import Icon from "../../assets/img/edited 3.png";
+import Icon_2 from "../../assets/img/icon.svg";
 import Scrol_Icon from "../../assets/icons/Group 30.png";
-import AnimatedNumbers from "react-animated-numbers";
+
 import About from "../About/index.jsx";
 const Main = () => {
   const textAnimation = {
@@ -20,7 +21,7 @@ const Main = () => {
     <motion.div initial="hidden" whileInView="visible">
       <MainContainer>
         <Wrapper>
-          <img width={100} height={50} src={Icon} alt="" />
+          <img height={60} src={Icon} alt="" />
 
           <Content initial="hidden" whileInViev="visible">
             <motion.h1
@@ -31,45 +32,27 @@ const Main = () => {
               STRONGEST <br /> DISTRIBUTION <br /> NETWORK
             </motion.h1>
             <Content.Counts>
-              <div>
+              <motion.div transition={{ delay: 0.8 }} variants={textAnimation}>
                 <div className="count">
-                  <AnimatedNumbers
-                    transitions={(index) => ({
-                      type: "spring",
-                      duration: index + 0.3,
-                    })}
-                    animateToNumber={130}
-                  />
+                  130
                   <div>+</div>
                 </div>
                 <div className="title">Delivired Materials</div>
-              </div>
-              <div>
+              </motion.div>
+              <motion.div transition={{ delay: 1 }} variants={textAnimation}>
                 <div className="count">
-                  <AnimatedNumbers
-                    transitions={(index) => ({
-                      type: "spring",
-                      duration: index + 0.3,
-                    })}
-                    animateToNumber={120}
-                  />
+                  120
                   <div>+</div>
                 </div>
                 <div className="title">Project Finished</div>
-              </div>
-              <div>
+              </motion.div>
+              <motion.div transition={{ delay: 1.2 }} variants={textAnimation}>
                 <div className="count">
-                  <AnimatedNumbers
-                    transitions={(index) => ({
-                      type: "spring",
-                      duration: index + 0.3,
-                    })}
-                    animateToNumber={390}
-                  />
+                  390
                   <div>+</div>
                 </div>
                 <div className="title">Happy Customers</div>
-              </div>
+              </motion.div>
             </Content.Counts>
             <div className="icon">
               <img height={40} src={Scrol_Icon} alt="" />
@@ -85,43 +68,43 @@ const Main = () => {
           behavior="alternate"
           direction="left"
         >
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <img width="22px" src={Icon} alt="" />
+          <img width="22px" src={Icon_2} alt="" />
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; AS CARGO LLC
           &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
         </marquee>

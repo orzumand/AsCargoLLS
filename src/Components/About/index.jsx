@@ -22,9 +22,7 @@ const About = () => {
           service, safe and experienced drivers, tracking on expedited services.
           We promise to provide world-class transportation services and ensure
           your freight is delivered on schedule and straight to the designated
-          destination. Our goal is your satisfaction with our services. We
-          welcome you to check out our website and discover our services:
-          Freight transportation, CDL Drivers, Employee job opportunities.
+          destination.
         </Content.Counts>
       </Content>
     </Wrapper>

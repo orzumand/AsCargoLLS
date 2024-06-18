@@ -9,21 +9,15 @@ import styled from "styled-components";
 //   /* background-color: #35353a; */
 // `;
 const Wrapper = styled.div`
-  /* background-size: cover; */
-
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 60%;
-  /* margin-top: 180px; */
   /* border: 2px solid red; */
   min-width: 787px;
   max-width: 1540px;
   width: 100%;
   padding: 20px 85px 0px 85px;
-  height: 820px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 `;
 const Content = styled.div`
   padding-top: 132px;

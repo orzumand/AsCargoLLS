@@ -10,7 +10,6 @@ const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-image: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.6) 10%,
@@ -18,28 +17,31 @@ const MainContainer = styled.div`
     ),
     url(${Image});
   background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  /* height: 1460px; */
+  background-position: center;
+  /* border: 2px solid red; */
 `;
+
 const Wrapper = styled.div`
   min-width: 787px;
   max-width: 1540px;
   width: 100%;
   padding: 20px 85px 0px 85px;
-  height: 800px;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
   /* border: 2px solid red; */
 `;
 const Content = styled.div`
   width: 100%;
 
   .icon {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 10px; */
   }
   .contentText {
     color: rgb(255, 255, 255);

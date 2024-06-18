@@ -25,7 +25,6 @@ const Features = () => {
       x: e.pageX,
       y: e.pageY,
     });
-    console.log(e);
   }
 
   const layerProps = {
@@ -61,7 +60,11 @@ const Features = () => {
           </Outer>
         )}
         <Wrapper>
+          <Map>
+            <VectorMap width={"100%"} layerProps={layerProps} {...UsaMap} />
+          </Map>
           {/* <img width={70} height={40} src={Icon} alt="" /> */}
+
           <ContentText>
             Powerful Features <br />
             of <span style={{ color: "red" }}> AS Cargo</span> Team
@@ -72,7 +75,11 @@ const Features = () => {
                 transition={{ delay: 0 }}
                 variants={textAnimation}
                 className="card"
-                style={{ marginTop: "-90px" }}
+                style={{
+                  marginTop: "-90px",
+                  position: "absolute",
+                  top: "400px",
+                }}
               >
                 <img width={90} src={Dispatch} alt="" />
                 <Card.Title>Dispatch</Card.Title>
@@ -85,6 +92,11 @@ const Features = () => {
               <motion.div
                 transition={{ delay: 0.2 }}
                 variants={textAnimation}
+                style={{
+                  position: "absolute",
+                  top: "400px",
+                  left: "330px",
+                }}
                 className="card"
               >
                 <img width={75} src={Support} alt="" />
@@ -99,7 +111,12 @@ const Features = () => {
                 transition={{ delay: 0.4 }}
                 variants={textAnimation}
                 className="card"
-                style={{ marginTop: "-90px" }}
+                style={{
+                  marginTop: "-90px",
+                  position: "absolute",
+                  top: "400px",
+                  left: "640px",
+                }}
               >
                 <img width={75} src={Reability} alt="" />
                 <Card.Title>Reliablity</Card.Title>
@@ -113,6 +130,11 @@ const Features = () => {
                 transition={{ delay: 0.6 }}
                 variants={textAnimation}
                 className="card"
+                style={{
+                  position: "absolute",
+                  top: "400px",
+                  left: "960px",
+                }}
               >
                 <img width={75} src={Insurance} alt="" />
                 <Card.Title>Cargo Insurance</Card.Title>
@@ -124,9 +146,6 @@ const Features = () => {
               </motion.div>
             </Content.Counts>
           </Content>
-          <Map>
-            <VectorMap layerProps={layerProps} {...UsaMap} />
-          </Map>
         </Wrapper>
       </MainContainer>
     </motion.div>

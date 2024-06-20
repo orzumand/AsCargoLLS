@@ -8,7 +8,7 @@ const SidebarWrapper = styled.div`
   z-index: 100;
   .line {
     height: 10px;
-    stroke: green;
+    stroke: #f2123a;
   }
   .title {
     color: red;
@@ -18,7 +18,7 @@ const SidebarWrapper = styled.div`
     text-decoration: none;
     font-size: 1rem;
     color: white;
-    background-color: #2b95a6;
+    background-color: #f2123a;
     font-weight: 500;
 
     padding: 0px 10px;

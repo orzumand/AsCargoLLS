@@ -78,7 +78,7 @@ const Features = () => {
                 style={{
                   marginTop: "-90px",
                   position: "absolute",
-                  top: "400px",
+                  top: "380px",
                 }}
               >
                 <img width={90} src={Dispatch} alt="" />
@@ -94,7 +94,7 @@ const Features = () => {
                 variants={textAnimation}
                 style={{
                   position: "absolute",
-                  top: "400px",
+                  top: "380px",
                   left: "330px",
                 }}
                 className="card"
@@ -114,7 +114,7 @@ const Features = () => {
                 style={{
                   marginTop: "-90px",
                   position: "absolute",
-                  top: "400px",
+                  top: "380px",
                   left: "640px",
                 }}
               >
@@ -132,7 +132,7 @@ const Features = () => {
                 className="card"
                 style={{
                   position: "absolute",
-                  top: "400px",
+                  top: "380px",
                   left: "960px",
                 }}
               >

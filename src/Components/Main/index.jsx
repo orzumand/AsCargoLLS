@@ -29,7 +29,9 @@ const Main = () => {
               transition={{ delay: 0.4 }}
               variants={textAnimation}
             >
-              STRONGEST <br /> DISTRIBUTION <br /> NETWORK
+              <div>HONESTY</div>
+              <div style={{ color: "#F2123A" }}> RELIABILITY</div>
+              <div>OPPENNESS</div>
             </motion.h1>
             <Content.Counts>
               <motion.div transition={{ delay: 0.8 }} variants={textAnimation}>

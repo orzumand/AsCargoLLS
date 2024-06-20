@@ -22,7 +22,6 @@ const MainContainer = styled.div`
 `;
 
 const Wrapper = styled.div`
-  min-width: 787px;
   max-width: 1540px;
   width: 100%;
   padding: 20px 85px 0px 85px;
@@ -46,10 +45,10 @@ const Content = styled.div`
   .contentText {
     color: rgb(255, 255, 255);
 
-    font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0%;
     margin-top: 170px;
+    font-size: clamp(2rem, 4.5vw, 4rem);
   }
 `;
 Content.Text = styled.div``;
@@ -68,11 +67,12 @@ Content.Counts = styled.div`
     letter-spacing: 2px;
     display: flex;
     gap: 8px;
-    justify-content: center;
+
+    font-size: clamp(1rem, 1.5vw, 4rem);
   }
   div.title {
+    text-align: left;
     color: white;
-    font-family: 1.2rem;
   }
 `;
 

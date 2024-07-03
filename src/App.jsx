@@ -2,7 +2,7 @@
 import Main from "./Components/Main";
 import Features from "./Components/Features";
 import Sidebar from "./Components/Sidebar";
-import FAQ from "./Components/FAQ";
+// import FAQ from "./Components/FAQ";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
 
@@ -15,7 +15,7 @@ function App() {
 
       {/* <About /> */}
       <Features />
-      <FAQ />
+      {/* <FAQ /> */}
       <Contact />
       <Footer />
     </>

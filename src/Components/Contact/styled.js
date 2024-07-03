@@ -50,6 +50,7 @@ const Form = styled.div`
   width: 400px;
   height: 500px;
   background-color: rgba(159, 159, 159, 0.181);
+  background-color: #2b95a6;
   backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 10px;

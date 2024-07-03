@@ -11,7 +11,7 @@ const About = () => {
         </Content.Text>
         <Content.Counts>
           AS Cargo LLC corparation is a transportation company that was
-          established in Pittsburgh, PA in 2018. Our company acknowledges the
+          established in Naperville, IL in 2018. Our company acknowledges the
           strong potential of the trucking industry to make a big impact on
           business and society. Our management team with 15 years of
           transportation experience and professional drivers work to meet your

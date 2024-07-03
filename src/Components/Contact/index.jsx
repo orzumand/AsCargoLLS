@@ -14,14 +14,14 @@ const Contact = () => {
               our service
             </Content.Sub>
             <Content.Item>
-              <img width={40} src={Call} alt="" /> +123412123422
+              <img width={40} src={Call} alt="" /> 630-686-6569
             </Content.Item>
             <Content.Item>
-              <img width={40} src={Gmail} alt="" /> ascargollc@gmail.com
+              <img width={40} src={Gmail} alt="" /> DISPATCH@ASCARGOLLC.COM
             </Content.Item>
             <Content.Item>
-              <img width={40} src={Location} alt="" /> 400Agency, 100 Broadway
-              SF CA 94111, United States
+              <img width={40} src={Location} alt="" /> 800 W 5TH AVE #209 ,
+              NAPERVILLE, IL 60563
             </Content.Item>
           </Content>
           <Form>

@@ -39,7 +39,7 @@ const Main = () => {
                   130
                   <div>+</div>
                 </div>
-                <div className="title">Delivired Materials</div>
+                <div className="title">Delivered Materials</div>
               </motion.div>
               <motion.div transition={{ delay: 1 }} variants={textAnimation}>
                 <div className="count">

@@ -73,7 +73,7 @@ const Card = styled.div`
   font-size: 1.2rem;
   padding: 12px 12px 12px 0px;
   border-radius: 10px;
-  width: 800px;
+  width: 900px;
   height: 60px;
   cursor: pointer;
   transition: all 400ms;

@@ -3,7 +3,7 @@ import { Wrapper, Content } from "./styled";
 import Logo_Icon from "../../assets/img/Слой_x0020_1.svg";
 const About = () => {
   return (
-    <Wrapper>
+    <Wrapper id="about">
       <Content>
         <Content.Name>About</Content.Name>
         <Content.Text>

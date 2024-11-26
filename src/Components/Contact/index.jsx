@@ -4,7 +4,7 @@ import Gmail from "../../assets/img/gmail.png";
 import Location from "../../assets/img/location.png";
 const Contact = () => {
   return (
-    <div id="features">
+    <div id="contacts">
       <MainContainer>
         <Wrapper>
           <Content>

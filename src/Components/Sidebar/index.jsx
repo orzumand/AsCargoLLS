@@ -4,19 +4,19 @@ import Truck from "../../assets/icons/Group10.svg";
 const Sidebar = () => {
   return (
     <SidebarWrapper>
-      <a className="HOME" href="#features">
+      <a className="HOME" href="#home">
         HOME
       </a>
-      <a className="ABOUT" href="#features">
+      <a className="ABOUT" href="#about">
         ABOUT
       </a>
-      <a className="FAQ" href="#features">
+      <a className="FAQ" href="#FAQ">
         FAQ
       </a>
-      <a className="SERVICES" href="#features">
+      <a className="SERVICES" href="#services">
         SERVICES
       </a>
-      <a className="CONTACT" href="#features">
+      <a className="CONTACT" href="#contacts">
         CONTACT
       </a>
       <Element>

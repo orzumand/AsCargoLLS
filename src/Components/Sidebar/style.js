@@ -44,6 +44,9 @@ const SidebarWrapper = styled.div`
     left: -15px;
     top: 102%;
   }
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
 const scrollAnimation = keyframes`
 0%{

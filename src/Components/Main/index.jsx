@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Icon from "../../assets/img/edited 3.png";
 import Icon_2 from "../../assets/img/icon.svg";
 import Scrol_Icon from "../../assets/icons/Group 30.png";
+// import Driver_Icon from "../../assets/icons/driver.png";
 
 import About from "../About/index.jsx";
 const Main = () => {
@@ -20,8 +21,20 @@ const Main = () => {
   return (
     <motion.div initial="hidden" whileInView="visible">
       <MainContainer>
+        <a
+          className="link_apply"
+          href="https://intelliapp.driverapponline.com/c/ascargollc"
+        >
+          APPLY AS DRIVER
+          {/* <img src={Driver_Icon} alt="" /> */}
+        </a>
         <Wrapper>
-          <img height={60} src={Icon} alt="" />
+          <img
+            style={{ position: "fixed", zIndex: "999" }}
+            height={60}
+            src={Icon}
+            alt=""
+          />
 
           <Content initial="hidden" whileInViev="visible">
             <motion.h1

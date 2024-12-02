@@ -19,6 +19,33 @@ const MainContainer = styled.div`
   background-size: cover;
   background-position: center;
   /* border: 2px solid red; */
+  .link_apply {
+    text-decoration: none;
+    position: fixed;
+    color: #f2123a;
+    background-color: white;
+    right: 1%;
+    top: 83%;
+
+    z-index: 999;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    font-size: clamp(0.5rem, 3vw, 1rem);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+  }
+  .link_apply:hover {
+    color: white;
+    background-color: #f2123a;
+  }
+  .link_apply:active {
+    color: #f2123a;
+    background-color: white;
+  }
 `;
 
 const Wrapper = styled.div`
@@ -31,6 +58,9 @@ const Wrapper = styled.div`
   flex-direction: column;
   height: 100vh;
   /* border: 2px solid red; */
+  @media (max-width: 767px) {
+    padding: 20px 15px 0px 15px;
+  }
 `;
 const Content = styled.div`
   width: 100%;
@@ -73,6 +103,10 @@ Content.Counts = styled.div`
   div.title {
     text-align: left;
     color: white;
+  }
+  @media (max-width: 700px) {
+    flex-direction: column;
+    margin-top: 30px;
   }
 `;
 
